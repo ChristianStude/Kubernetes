@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul  9 08:46:00 2021
+# Make data base, printed on Mon Jul 12 08:37:42 2021
 
 # Variables
 
@@ -17,7 +17,7 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-e9a85c95-3c39-4e5a-803e-b62f101191f6.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-657a9daa-7d30-4065-b084-de5138d00c93.sock
 # environment
 VSCODE_CWD = /home/lokaleradmin/Dokumente/git/kubernetes
 # environment
@@ -43,7 +43,7 @@ PWD = /home/lokaleradmin/Dokumente/git/kubernetes
 # environment
 XDG_DATA_DIRS = /usr/share/budgie-desktop:/usr/local/share:/usr/share:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/lokaleradmin/Dokumente/git
+OLDPWD = /home/lokaleradmin
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -93,13 +93,13 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 17444
+VSCODE_PID = 7573
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/R112U:@/tmp/.ICE-unix/1622,unix/R112U:/tmp/.ICE-unix/1622
+SESSION_MANAGER = local/R112U:@/tmp/.ICE-unix/1629,unix/R112U:/tmp/.ICE-unix/1629
 # automatic
 *F = $(notdir $*)
 # environment
@@ -173,7 +173,7 @@ GTK_MODULES = appmenu-gtk-module:gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5951
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2959
 # environment
 VSCODE_NODE_CACHED_DATA_DIR = /home/lokaleradmin/.config/Code/CachedData/507ce72a4466fbb27b715c3722558bb15afa9f48
 # environment
@@ -189,7 +189,7 @@ XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
 # environment
-TILIX_ID = cf044c23-ca7a-49eb-89bb-48d109f546ba
+TILIX_ID = cfdf976f-152d-4210-8b34-fe1b1a0b6c46
 # environment
 HOME = /home/lokaleradmin
 # environment
@@ -242,7 +242,7 @@ GDMSESSION = budgie-desktop
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-07-09 08:22:01.167062621
+#  Last modified 2021-07-09 09:02:42.728401157
 #  File has been updated.
 #  Successfully updated.
 
@@ -253,6 +253,7 @@ clean:
 #  recipe to execute (from 'Makefile', line 8):
 	vagrant destroy -f
 	rm -rf .vagrant
+	rm rolls/iad*
 	
 
 # Not a target:
@@ -278,7 +279,6 @@ new:
 fresh: clean
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 5):
 	vagrant up
@@ -287,6 +287,7 @@ fresh: clean
 # Load=7/1024=1%, Rehash=0, Collisions=0/19=0%
 # VPATH Search Paths
 
+ 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
@@ -297,6 +298,6 @@ fresh: clean
 # strcache performance: lookups = 29 / hit rate = 27%
 # hash-table stats:
 # Load=21/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Fri Jul  9 08:46:00 2021
+# Finished Make data base on Mon Jul 12 08:37:42 2021
 
  

@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/lokaleradmin/Dokumente/git/kubernetes'
+vagrant up
+make: Leaving directory '/home/lokaleradmin/Dokumente/git/kubernetes'
+ 
